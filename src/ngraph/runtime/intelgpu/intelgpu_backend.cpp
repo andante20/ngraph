@@ -1928,6 +1928,8 @@ shared_ptr<runtime::Executable>
         case OP_TYPEID::ReplaceSlice:
         case OP_TYPEID::GenerateMask:
         case OP_TYPEID::ScalarConstantLike:
+        case OP_TYPEID::ScatterAdd:
+        case OP_TYPEID::ScatterNDAdd:
         case OP_TYPEID::ShapeOf:
         case OP_TYPEID::StopGradient:
         case OP_TYPEID::Transpose:
